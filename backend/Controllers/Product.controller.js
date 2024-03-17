@@ -71,11 +71,11 @@ export const getFilteredProducts = async (req, res) => {
       query.gender = userGender;
     }
 
-    console.log("Query:", query);
+    // console.log("Query:", query);
 
     const products = await ProductModel.find(query);
 
-    console.log(products, "prods");
+    // console.log(products, "prods");
 
     if (products) {
       return res.status(200).json({ success: true, products: products });
@@ -104,11 +104,11 @@ export const getSinglePageFilteredProds = async (req, res) => {
       query.category = userCategory;
     }
 
-    console.log("Query:", query);
+    // console.log("Query:", query);
 
     const products = await ProductModel.find(query);
 
-    console.log(products, "prods");
+    // console.log(products, "prods");
 
     if (products) {
       return res.status(200).json({ success: true, products: products });
