@@ -1,0 +1,145 @@
+#footer {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0 0;
+  background-color: rgb(255, 255, 255);
+  padding: 25px 15px;
+  /* border: 1px solid black; */
+}
+
+#footer > #footer-sec-1,
+#footer-sec-2,
+#footer-sec-3,
+#footer-sec-4,
+#footer-sec-5 {
+  height: 320px;
+  width: auto;
+  /* border: 1px solid black; */
+}
+
+#footer > #footer-sec-1 {
+  width: 34%;
+}
+
+#footer > #footer-sec-1 > h2 {
+  font-size: 28px;
+  margin: 50px 0 0 20px;
+}
+
+#footer > #footer-sec-1 > p {
+  font-size: 16px;
+  margin: 10px 0 10px 20px;
+  width: 60%;
+  color: rgb(50, 50, 50);
+  /* border: 1px solid black; */
+}
+
+#footer > #footer-sec-1 > #stores {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+}
+
+#footer > #footer-sec-1 > #stores > #play-store,
+#apple-play {
+  height: 100%;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#footer > #footer-sec-1 > #stores > #play-store > img {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+#footer > #footer-sec-1 > #stores > #apple-play > img {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+#footer > #footer-sec-2 > div {
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 50px 0;
+  color: rgb(50, 50, 50);
+  font-weight: 500;
+  /* border: 1px solid black; */
+}
+
+#footer > #footer-sec-3 > div {
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 50px 0;
+  color: rgb(50, 50, 50);
+  /* border: 1px solid black; */
+}
+
+#footer > #footer-sec-4 {
+  width: 12%;
+}
+
+#footer > #footer-sec-4 > div {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  /* justify-content: space-around; */
+  /* border: 1px solid black; */
+}
+
+#footer > #footer-sec-4 > div > h4 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#footer > #footer-sec-4 > div > #socials {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  color: rgb(50, 50, 50);
+  /* border: 1px solid black; */
+}
+
+#footer > #footer-sec-5 {
+  width: 20%;
+}
+
+#footer > #footer-sec-5 > div {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 50px 0;
+  /* border: 1px solid black; */
+}
+
+#footer > #footer-sec-5 > div > h4 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#footer > #footer-sec-5 > div > div {
+  margin-top: 15px;
+}
+
+#footer > #footer-sec-5 > div > div > p {
+  font-size: 14px;
+  color: rgb(50, 50, 50);
+}
